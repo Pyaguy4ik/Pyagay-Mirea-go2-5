@@ -1,0 +1,54 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace files
+*.mod
+*.sum
+go.work
+go.work.sum
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+server.log
+
+# Temporary files
+tmp/
+temp/
+
+# Binary files
+main
+tech-ip-5
+test_server
+test_db
+
+# Environment
+.env
+.env.local
+
+# Certificates (если нужно исключить - раскомментируйте)
+# certs/*.key
+# certs/*.crt
+
+# Vendor
+vendor/
+
+# Output
+*.out
+coverage.html
